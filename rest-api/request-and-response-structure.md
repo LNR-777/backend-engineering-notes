@@ -85,7 +85,7 @@ Date: Mon, 15 Jan 2024 10:30:00 GMT
 
 ## How this looks in Spring Boot
 
-``java
+
 @PostMapping("/users")
 public ResponseEntity<User> createUser(@RequestBody UserRequest request) {
     User saved = userService.save(request);
